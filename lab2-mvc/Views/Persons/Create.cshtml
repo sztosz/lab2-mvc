@@ -1,0 +1,76 @@
+﻿<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Wypełnij Formularz</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <form class="form-horizontal" action="Result" method="POST">
+        <div class="form-group">
+          <label for="name" class="col-md-2 control-label">Imię:</label>
+          <div class="col-md-10">
+            <input type="text" class="form-control" name="name" id="name" placeholder="Jan" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="surname" class="col-md-2 control-label">Nazwisko:</label>
+          <div class="col-md-10">
+            <input type="text" class="form-control" name="surname" id="surname" placeholder="Kowalski" />
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="radio">
+              <label>
+                <input type="radio" name="sex" id="sex1" value="Mężczyzna" checked>Mężczyzna
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sex" id="sex2" value="Kobieta">Kobieta
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="job" class="col-md-2 control-label">Zawód:</label>
+          <div class="col-md-10">
+            <select class="form-control" name="job" id="job">
+              <option>Student</option>
+              <option>Wykładowca</option>
+              <option>Kierowca</option>
+              <option>Dorożkarz</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="hobby" id="hobby1" value="Śpiewanie">Śpiewanie
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="hobby" id="hobby2" value="Komputery">Komputery
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="hobby" id="hobby3" value="Jazda Konna">Jazda Konna
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <input type="submit" class="btn btn-default" value="Wyślij" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+</div>
